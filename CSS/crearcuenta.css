@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.log-in a {
+    text-decoration: none;
+}
+
+.iniciarsesion {
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 10rem;
+    display: grid;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    font-family: 'Playfair Display', serif;
+}
+
+#check {
+  width: 5%;
+}
+
+.terminos {
+  margin-left: 0.4rem;
+  margin-top: -2.3rem;
+  font-size: 0.8rem;
+}
+
+.ocultar {
+    display: none;
+}
+ 
+.mostrar {
+    display: block;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(-225deg, #E3FDF5 0rem, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0rem, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    opacity: .95rem;
+}
+
+
+form {
+    width: 33rem;
+    min-height:5rem;
+    height: auto;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0rem 1rem 5rem hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+}
+form .con {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+}
+
+header {
+    margin: 1rem auto 3rem auto;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+
+header p {
+    letter-spacing: 0.05em;
+}
+
+input[class="form-input"]{
+    width: 17.6rem;
+    height: 3rem;
+    margin-top: 2%;
+    padding: 1rem;
+    font-size: 1em;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+    font-family: 'Playfair Display', serif;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    transition: 0.2s linear;
+    
+}
+input[id="txt-input"] {
+    width: 17.6rem;
+}
+
+input:focus {
+    transform: translateX(0rem);
+    border-radius: 1rem;
+}
+
+
+
+button {
+    display: inline-block;
+    color: #252537;
+    width: 17.6rem;
+    height: 3rem;
+    padding: 0rem 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+
+.submits {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+.frgt-pass {background: transparent;}
+
+
+.sign-up {background: #B8F2E6;}
+
+.frgt-pass {background: #B8F2E6;}
+
+button:hover {
+    transform: translateY(0.7rem);
+    box-shadow: none;
+}
+
+button a {
+    color: black;
+}
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+    0% {
+        transform: translateY(0.7rem);
+    }
+    100% {
+        transform: translateY(1rem);
+    }
+}

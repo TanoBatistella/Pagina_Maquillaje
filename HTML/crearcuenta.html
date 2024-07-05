@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/crearcuenta.css">
+	<title>IlyMakeup / Crear cuenta </title>
+</head>
+
+<body>
+<a href="home.html"><img src="fotos/ily.png" class="logo" width="50" height="50"></a>	
+
+<div class="overlay">
+
+<form id="mi-formulario">
+   <div class="con">
+
+   <header class="head-form">
+      <h2>Crear cuenta</h2>
+      
+      <p>Cree su cuenta cumpliendo todos los requisitos </p>
+   </header>
+  
+   <br>
+   <div class="field-set">
+
+      <label for="nombre"> Tu Nombre </label>
+      <br>
+      <input class="form-input" type="text" name="nombre" id="nombre" placeholder="Nombre"  required>
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+
+      <br>
+
+      <label for="apellido"> Tu apellido </label>
+      <br>
+      <input class="form-input" type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+
+      <br>
+
+        <label for="usuario"> Tu usuario </label>
+        <br>
+        <input class="form-input" type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required>
+     
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+
+      <br>
+
+      <label for="contra1"> Tu contraseña </label>
+      <br>
+      <input class="form-input" type="password" name="contra1" id="contra" placeholder="Contraseña" required>
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+
+      <br>
+
+      <label for="contra2"> Repite tu contraseña </label>
+      <br>
+      <input class="form-input" type="password" name="contra2" id="contra2" placeholder="Repetir contraseña" required>
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+
+      <br>
+
+      <label for="fecha"> Tu fecha de nacimiento </label>
+      <br>
+      <input class="form-input" type="date" name="fecha" id="fecha">
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+
+      <br>
+
+      <div class="checkbox1">
+      <input type="checkbox" name="check" id="check" required>
+      <label class="terminos"> Acepto los terminos y condiciones </label>
+      </div>
+
+      <button class="log-in" id="log-in" disabled="disabled"> <a href="homeperfil.html"> Crear Cuenta</a></button>
+   </div> 	
+
+       <button class="btn submits sign-up"> <a href="log-in.html" class="iniciarsesion"> Iniciar Sesion </a></button>
+
+
+   </div>
+     
+  </div>
+  
+  <div id="msg"></div>
+ 
+      <!-- Mensajes de Verificación -->
+      <div id="error" class="alert alert-danger ocultar" role="alert">
+    Las Contraseñas no coinciden, vuelve a intentar.
+      </div>
+      <div id="ok" class="alert alert-success ocultar" role="alert">
+          Las Contraseñas coinciden.
+</div>
+
+</form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+<script src="../JS/crearcuenta.js"></script>
+
+</body>
+
+</html>

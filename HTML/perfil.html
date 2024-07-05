@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ily Makeup / Perfil </title>
+	<link rel="stylesheet" type="text/css" href="../CSS/perfil.css">
+</head>
+<body>
+
+	<header>
+	<img src="fotos/ily.png" class="logo" width="50" height="50">
+	<nav id="menu">
+<ul>
+	<li> <a href="homeperfil.html"> Home </a> </li>
+		
+	<li>
+			
+		<a href="#"> Productos </a> 	
+		<ul class="submenu">
+            <li>    <a href="todoproductosperfil.html"> Carrito </a> </li>
+            <li>    <a href="skincareperfil.html"> Skincare </a> </li>            
+			<li>	<a href="productosperfil.html"> Sombras </a> </li>
+			<li>	<a href="accesoriosperfil.html"> Accesorios </a> </li>
+		</ul>
+	</li>
+			<li>	<a href="contactoperfil.html"> Contacto </a> </li>
+</ul>
+</nav>	
+
+	<a href="todoproductosperfil.html"> <img src="fotos/iconocompra.png" class="compra" width="50" height="50"> </a>
+
+</header>
+
+<div class="infop">
+	
+  <div class="imgperfil">
+
+	<img class="fotoperfil" src="fotos/icon1.png" width="150" height="150">
+  <input type="file" class="archivos" placeholder="Seleccione su foto" accept="image/png,image/jpeg">
+
+  </div>
+
+<div class="textop">
+
+  <h2> Nombre y Apellido </h2>
+    <h3> @usuario. </h2>
+
+</div>
+
+<div class="radiob">
+
+    <label> Este perfil pertenece a un/una </label>
+    <br>
+    <input type="radio" name="rb" id="rb" checked>
+    <label> Emprendimiento </label>
+    
+    <br>
+    <input type="radio" name="rb" id="rb">
+    <label> Empresa </label>
+    <br>
+
+    <input type="radio" name="rb" id="rb">
+    <label> Comprador </label>
+    <div id="rec"></div>
+
+</div>
+
+<div class="cambio">
+  
+<button class="cambioboton1"> <a href="home.html"> Configurar perfil </a> </button>
+
+<br>
+
+<button class="cambioboton"> <a href="home.html"> Cerrar sesión </a> </button>
+
+</div>
+
+</div>
+
+<div class="grilla5">
+  <form action="">
+      <img id="img1" src="fotos/ph.png">
+      <h3 id="seleccionar">Seleccione una imagen</h3>
+
+      <select name="imagen" id="selectImagen">
+          <option value="0" label="Elija una imagen" value="valor"></option>
+          <option value="1">Labiales</option>
+          <option value="2">Sombras</option>
+          <option value="3">Vinchas</option>
+          <option value="4">Brochas</option>
+          <option value="5">Anillos</option>
+      </select>
+     
+      <img id="img2"  src="fotos/ph.png">  
+      <h3 id="seleccionarposi">Seleccione una posicion</h3>
+      <div id="posi1">
+          <input value="1" type="radio" name="posicion" id="posicion1">
+          <p>1</p>
+      </div>
+      <div id="posi2">
+          <input value="2" type="radio" name="posicion" id="posicion2">
+          <p>2</p>
+      </div>
+      <div id="posi3">
+          <input value="3" type="radio" name="posicion" id="posicion3">
+          <p>3</p>
+      </div>
+
+      <img id="img3" src="fotos/ph.png">
+     
+      <button type="reset" class="boton" id="asignar">Agregar</button>
+      <button type="reset" class="boton" id="limpiar">Limpiar</button>
+  </form>
+ 
+</div>
+
+
+<body class="body_footer">
+    <footer class="footer">
+        <div class="contenido">
+         <div class="row">
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox%22%3EEmail">  Ailen</a>  </li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox%22%3EEmail"> Tiziano</a>  </li>
+            <li><a href="contacto.html">Contacto</a>  </li>
+            </ul>
+          </div> 
+          <div class="footer-col">
+            <h4>Comprar</h4>
+            <ul>
+             <li><a href="skincare.html">Skincare</a>  </li>
+             <li><a href="productos.html">sombras</a>  </li>
+             <li><a href="labiales.html">Labiales</a>  </li>
+             <li><a href="accesorios.html">Accesorios</a>  </li> 
+            </ul>
+          </div> 
+          <div class="footer-col">
+           <div class="Redes-Sociales"> <h4>Redes sociales</h4>
+             <a href="https://www.instagram.com/ily.makeup_lf/?next=%2F"><i class="Instagram"></i></a> 
+             <a href="https://www.facebook.com/ily.makeup.lf"><i class="Facebook"></i></a>
+             <a href="#"><i class="Twitter"></i></a>
+             <a href="#"><i class="Linkedin"></i></a>
+           </div>
+          </div>
+         </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+<script src="../JS/perfil.js"></script>
+
+</html>

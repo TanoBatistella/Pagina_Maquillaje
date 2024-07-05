@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+header {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	margin-bottom: 40px;
+	background-color:#c25d72;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.compra {
+	margin-left: 1rem;
+	text-align: left;
+	margin-top: 4px;
+}
+
+.perfilheader {
+	margin-left: 19rem;
+	
+}
+
+.perfilheader a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	font-family: 'Montserrat';
+}
+
+.perfilheader img {
+	border-radius: 10rem;
+}
+
+#menu ul {
+	list-style:none;
+	margin-top: 0.2rem;
+	padding:0rem;
+	margin-left: 5rem;
+}
+
+#menu ul li {
+	background-color:#c25d72;
+}
+
+#menu ul a {
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-weight:300;
+	font-size:1em;
+	padding:0.4rem;
+	font-family: serif;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	font-family: 'Montserrat';
+}
+
+#menu ul li {
+	position:relative;
+	float:left;
+	margin:0rem;
+	padding:0.2rem;
+}
+
+#menu ul li:hover {
+	background:#c8c8c8;
+}
+
+#menu ul ul {
+	display:none;
+	position:absolute;
+	top:2.7rem;
+	left:0rem;
+	padding:0rem;
+	margin-left: 0rem;
+}
+
+#menu ul ul li {
+	float:none;
+	width:9rem;
+}
+
+#menu ul ul a {
+	line-height:1rem;
+	padding:0.5rem 0.5rem;
+}
+
+#menu ul li:hover > ul {
+	display:block;
+}
+
+.titulo {
+	font-family: 'Montserrat';
+	margin-top: 0px;
+	padding-left: 100px;
+	font-size: 40px;
+	width: 280%;
+	text-align: center;
+	color: black;
+	text-shadow: 0.04em 0.04em 0.04em grey;
+	margin-left: 25%;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+.body_footer {
+	min-height: 100%;
+}
+
+.logo {
+	border-radius: 5rem;
+	margin-left: 0.5rem;
+	text-align: left;
+	margin-top: 0.2rem;
+	width: 10%;
+	height: 90%;
+}
+
+.fotos {
+	padding:1rem 1rem 3rem 1rem;
+    border:0.1rem solid #BFBFBF;
+    box-shadow:0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.8);
+    float: left;
+  	margin-right: 3rem;
+  	margin-left: 7rem;
+	width: 40%;
+  	height: 40%;
+}
+
+.todo {
+  margin: 2rem;
+  color: black;
+  padding: 0.5rem;
+  letter-spacing: 0.09em;
+  margin-bottom: 7rem;
+
+}
+
+.nombrepaleta {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	text-align: left;
+	color: black;
+	text-shadow: 0.04em 0.04em 0.04em grey;
+	margin-top: 2.8rem;
+}
+
+.tipoprod {
+	font-size: 1.5em;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	font-family: 'Abyssinica SIL', serif;
+}
+
+.infoprod {
+	font-size: 1em;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-family: 'Abyssinica SIL', serif;
+}
+
+.precio1 {
+	font-size: 2em;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.precio2 {
+	font-size: 1em;
+	margin-top: 3rem;
+	margin-bottom: -6rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.boton {
+	background-color: #c25d72;
+	font-size: 1em;
+	width: 11rem;
+	height: 3rem;
+	margin-bottom: 10rem;
+}
+
+.boton a {
+		font-family: 'Montserrat';
+		text-decoration: none;
+		color: white;
+}
+
+.body_footer {
+line-height: 2rem;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+.contenido {
+    max-width: 70rem;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+list-style: none;
+}
+
+.footer{
+    background-color: #24262b ;
+}
+
+.footer-col{
+    width: 15rem;
+    padding: 1.5rem 0rem;
+}
+
+.footer-col{
+    font-size: 1em;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: " ";
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    background-color: #e91e63;
+    height: 0.1rem;
+    box-sizing: border-box;
+    width: 5rem;
+}
+
+.footer-col ul li::not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.footer-col ul li a{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 10em;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 0.9rem;
+}
+
+.footer-col .Redes-Sociales a{
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0rem 0.3rem 1rem 0rem;
+  text-align: center;
+  border-radius: 10rem;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .Redes-Sociales a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.fa{
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 0.5rem;
+}

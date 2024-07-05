@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>  </title>
+  <link rel="stylesheet" type="text/css" href="../CSS/todoproductos.css">
+  <script src="https://kit.fontawesome.com/59732d9474.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <a href="index.html"> <img src="fotos/ily.png" class="logo" width="50" height="50"> </a> 
+  <nav id="menu">
+<ul>
+  <li> <a href="home.html"> Home </a> </li>
+    
+  <li>
+      
+    <a href="#"> Productos </a>   
+    <ul class="submenu">
+      <li>  <a href="productos.html"> Sombras </a> </li>
+      <li>  <a href="skincare.html"> SkinCare </a> </li>
+      <li>  <a href="labiales.html"> Labiales </a> </li>
+      <li>  <a href="accesorios.html"> Accesorios </a> </li>
+    </ul>
+  </li>
+      <li>  <a href="contacto.html"> Contacto </a> </li>
+</ul>
+</nav>  
+
+  <img src="fotos/iconocompra.png" class="compra" width="50" height="50">
+
+</header>
+
+<i class="titulo"> Carrito </i>
+
+<div class="Carrito">
+
+<div class="a1">
+ <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                <button id="realizar" class="btn btn-danger"> Realizar compra </button>
+            </aside>
+        </div>
+    </div>
+  </div>
+  
+</div>
+
+<body class="body_footer">
+    <footer class="footer">
+        <div class="contenido">
+         <div class="row">
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox%22%3EEmail">  Ailen</a>  </li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox%22%3EEmail"> Tiziano</a>  </li>
+            <li><a href="contacto.html">Contacto</a>  </li>
+            </ul>
+          </div> 
+          <div class="footer-col">
+            <h4>Comprar</h4>
+            <ul>
+             <li><a href="skincare.html">Skincare</a>  </li>
+             <li><a href="productos.html">sombras</a>  </li>
+             <li><a href="labiales.html">Labiales</a>  </li>
+             <li><a href="accesorios.html">Accesorios</a>  </li> 
+            </ul>
+          </div> 
+          <div class="footer-col">
+           <div class="Redes-Sociales"> <h4>redes sociales</h4>
+             <a href="https://www.instagram.com/ily.makeup_lf/?next=%2F" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+             <a href="https://www.facebook.com/ily.makeup.lf" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+             <a href="https://twitter.com/?lang=es" target="_blank" ><i class="fa fa-brands fa-twitter"></i></a>
+             <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa fa-solid fa-envelope"></i></a>
+           </div>
+          </div>
+         </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+<script src="../JS/todoproductos.js"></script>
+
+</html>

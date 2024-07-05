@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/log-in.css">
+	<title> IlyMakeup / Inicio de sesión </title>
+</head>
+
+<body>
+<a href="home.html"><img src="fotos/ily.png" class="logo" width="50" height="50"></a>	
+
+<div class="overlay">
+
+<form id="mi-formulario" action="" method="post">
+   <div class="con">
+
+   <header class="head-form">
+      <h2>Log In</h2>
+      
+      <p>Inicie sesión aquí con su nombre de usuario y contraseña</p>
+   </header>
+  
+   <br>
+   <div class="field-set">
+    <p>
+         <input class="form-input"  id="txt-input" type="text" placeholder="Nombre de Usuario" name="nombre" minlength="6" required>
+    </p>
+    
+      <br>
+
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+    <p>
+      <input class="form-input" type="password" placeholder="Contraseña" id="pwd"  name="contra" minlength="8" maxlength="15" required>
+    </p>
+     
+      <br>
+
+      <button id="log-in"> <a href="homeperfil.html"> Iniciar Sesion </a></button>
+   </div>
+
+
+      <button class="btn submits frgt-pass"> Has olvidado la contraseña</button>
+
+      <button class="btn submits sign-up"> <a href="crearcuenta.html"> Crear Cuenta </a> </button>     	
+     
+
+
+   </div>
+     
+  </div>
+  
+</form>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+<script src="../JS/login.js"></script>
+
+</html>

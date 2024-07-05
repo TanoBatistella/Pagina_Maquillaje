@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Contacto</title>
+    
+    <link rel="stylesheet" href="../css/contactoperfil.css">
+    <script src="https://kit.fontawesome.com/59732d9474.js" crossorigin="anonymous"></script>    
+    
+  
+</head>
+    
+<body>
+
+<div class="contact-contenido">
+  <div class="left-col">
+  </div>
+  <div class="right-col"> 
+    <h1>Contactenos</h1>
+    
+    <form action="enviar.php" id="contacto-form" method="post">
+      
+      <label>Nombre Completo</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre Completo" required>
+      
+        <label>Numero de Teléfono (Opcional)</label>
+  <input type="number" id="numero" name="numero" placeholder="Tu Numero De Teléfono" >
+
+      <label>Correo Electrónico</label>
+  <input type="email" id="email" name="email" placeholder="Tu Correo Electronico" required>
+     
+      <label> Dirección </label>
+  <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required>
+     
+  <div class="selectYrb">
+   <div class="select1">
+      <label> Provincia </label>
+  <select id="select" name="select">      <option value="value1"> Buenos Aires </option>
+      <option value="value2" selected=""> Córdoba </option>
+      <option value="value3"> Chubut </option>
+      <option value="value4"> Neuquen </option>
+      <option value="value5"> Rio Negro </option>
+  </select>
+  </div>
+
+  <div class="radiob1">
+      <label> Género </label>
+      <label> Femenino </label>
+  <input type="radio" name="rb" id="radiob">
+      <label> Masculino </label>
+  <input type="radio" name="rb" id="radiob">
+  </div>
+
+  </div>
+
+      <label> Fecha </label>
+  <input class="input-css" type="date" name="fecha" id="fecha">
+
+      <label>Mensaje</label>
+  <textarea rows="6" placeholder="Escriba su mensaje" id="mensaje" name="mensaje"  required></textarea>
+
+<div class="checkbox1">
+  <input type="checkbox" name="check" id="check" required>
+  <label class="terminos"> Acepto los terminos y condiciones </label>
+</div>
+
+  <button type="enviar" id="enviar" name="enviar" disabled="disabled"> <a href="homeperfil.html"> Enviar </a> </button>
+  
+</form>
+
+<div id="error"></div>
+<div id="mensaje-exitoso"></div>
+  </div>
+</div>
+
+      </body>
+
+<body class="body_footer">
+    <footer class="footer">
+        <div class="contenido">
+         <div class="row">
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox%22%3EEmail">  Ailen</a>  </li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox%22%3EEmail"> Tiziano</a>  </li>
+            <li><a href="contacto.html">Contacto</a>  </li>
+            </ul>
+          </div> 
+          <div class="footer-col">
+            <h4>Comprar</h4>
+            <ul>
+            <li><a href="todoproductosperfil.html">Carrito</a>  </li>
+             <li><a href="skincareperfil.html">Skincare</a>  </li>
+             <li><a href="productosperfil.html">sombras</a>  </li>
+             <li><a href="labialesperfil.html">Labiales</a>  </li>
+             <li><a href="accesoriosperfil.html">Accesorios</a>  </li> 
+            </ul>
+          </div> 
+          <div class="footer-col">
+           <div class="Redes-Sociales"> <h4>redes sociales</h4>
+             <a href="https://www.instagram.com/ily.makeup_lf/?next=%2F" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+             <a href="https://www.facebook.com/ily.makeup.lf" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+             <a href="https://twitter.com/?lang=es" target="_blank" ><i class="fa fa-brands fa-twitter"></i></a>
+             <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa fa-solid fa-envelope"></i></a>
+           </div>
+          </div>
+         </div>
+        </div>
+    </footer>
+
+</body>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+<script src="../JS/contactoperfil.js"></script>
+
+</html>
